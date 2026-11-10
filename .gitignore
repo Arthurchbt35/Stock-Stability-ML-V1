@@ -1,0 +1,6 @@
+Ignore Raw SEC archives & intermediate datasets
+*zip
+data_sec/
+*parquet
+!dataset_aegis_final_ml.parquet
+
