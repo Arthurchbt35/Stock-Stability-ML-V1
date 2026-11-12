@@ -13,3 +13,13 @@ Aegis Project is a Machine Learning project built to predict stable stock invest
 
     $$\text{Score} = \frac{\text{1-Year Return}}{\max(\vert{}\text{Max Drawdown}\vert{}, 0.01)}$$
 
+## 2. Why did i choose a Binary Classification instead of a Linear Regression
+
+When analyzing the 10 281 valid financial reports, the target score showed massive outliers :
+- Median score : 0.9
+- Mean score : 7.90 (Distorded by outliers)
+- Min / Max score : -59.02 / 39 999.59
+- 90% of stocks : score below 3.43
+
+Standard regression models not handle extreme outliers well because a few stocks explode to 39 999, it completly distort prediction for normal compagnies.
+
