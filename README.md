@@ -24,8 +24,8 @@ When analyzing the 10 098 valid financial reports, the target score showed massi
 Standard regression models do not handle extreme outliers well because when a few stocks explode to 39,999, it completely distorts predictions for normal companies
 
 **Binary Classification** problem  :
-- 1 (Compounder — 30% of the data): Score $\ge 1.0$ (the annual return is higher than the worst crash of the year).
-- 0 (Underperform — 70% of the data): Score $< 1.0$.
+- 1 (Compounder - 30% of the data): Score $\ge 1.0$ (the annual return is higher than the worst crash of the year).
+- 0 (Underperform - 70% of the data): Score $< 1.0$.
 
 ## 3. Models & Visuals V1
 
